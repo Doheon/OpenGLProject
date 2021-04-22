@@ -12,7 +12,7 @@
 
 glfw라이브러리를 사용했기 때문에 직접 model matrix를 계산하고 곱해가면서 Hierarchical model을 만들었습니다. 제가 만든 object는 drone이고 drone body에 propeller가 돌아가는 object를 만들었습니다. 
 
-![LearnOpenGL 2021-04-22 21-52-03](README.assets/LearnOpenGL 2021-04-22 21-52-03.gif)
+![LearnOpenGL 2021-04-22 21-52-03](README.assets/1.gif)
 
  (각 구성요소는 swept surface를 이용하여 생성)
 
@@ -38,7 +38,7 @@ Zoom in-out은 마우스 휠로, dolly in-out은 w, d키로 구현하였습니�
 
 \-    Dolly in-out: camera position을 camera position에서 center of rotation을 뺀 vector만큼 w, d키가 눌림에 따라 바뀌도록 설정한다.
 
- ![LearnOpenGL 2021-04-22 22-28-52](README.assets/LearnOpenGL 2021-04-22 22-28-52.gif)
+ ![LearnOpenGL 2021-04-22 22-28-52](README.assets/2.gif)
 
  track ball interface로 물체를 살펴보는 모습  
 
@@ -100,6 +100,6 @@ Translucent cube는 보는 방향에 따라 각 면을 normal vector를 이용�
 
 
 
-![LearnOpenGL 2021-04-22 22-34-10](README.assets/LearnOpenGL 2021-04-22 22-34-10.gif)
+![LearnOpenGL 2021-04-22 22-34-10](README.assets/3.gif)
 
 depth sorting을 이용하여 구현한 translucent cube
